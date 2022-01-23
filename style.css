@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+* {
+    font-family: 'Outfit', sans-serif;
+}
+
+html, body {
+    margin:0;
+    padding:0;
+ }
+
+body {
+    background-color: rgba(255, 255, 255, 1);
+    ; 
+}
+nav {
+    padding: 0px 10px 0px 10px;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-between;
+  }
+
+nav a {
+    color: black;
+    padding: 0px 20px 0px 0px;
+}
+
+nav a:active {
+    color: black;
+}
+
+header {
+
+    display: flex;
+}
+
+header h1 {
+    margin-left: 250px;
+}
+
+header img {
+    height: 600px;
+    margin-left: 250px;
+}
+
+#headerP {
+    font-weight: 400;
+    font-size: 80%;
+}
+.rightNav {
+    font-size: 125%;
+}
+
+#logoName {
+    font-size: 200%;
+}
+
+#me {
+    width: 400px;
+}
+
+#education {
+    text-align: center;
+    font-size: 200%;
+}
+
+#education h1 {
+    margin: 0 auto;
+    width:60%;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+#education p {
+    margin: 0 auto;
+    max-width: 700px;
+   font-size: 18px; 
+} 
+
+#experience {
+    text-align: center;
+    font-size: 200%;
+}
+#experience h1 {
+    margin: 0 auto;
+    width:60%;
+    background: rgba(0, 0, 0, 0.6);
+}
+#experience p {
+    margin: 0 auto;
+    max-width: 700px;
+   font-size: 18px; 
+} 
+
+#skills {
+    text-align: center;
+    font-size: 200%;
+}
+#skills h1 {
+    margin: 0 auto;
+    width:60%;
+    background: rgba(0, 0, 0, 0.8);
+    color: rgba(252, 246, 245, 1);
+    }
+#skills p {
+    margin: 0 auto;
+    max-width: 700px;
+   font-size: 18px; 
+} 
+
+#projects {
+    text-align: center;
+    font-size: 200%;
+}
+#projects h1 {
+    margin: 0 auto;
+    width:60%;
+    background: rgba(0, 0, 0, 1);
+    color: rgba(252, 246, 245, 1)
+    }
+#projects p {
+    margin: 0 auto;
+    max-width: 700px;
+   font-size: 18px; 
+} 
+footer {
+    margin-top: 250px;
+    text-align: center;
+}
