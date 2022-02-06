@@ -11,118 +11,516 @@ html, body {
 
 body {
     background-color: rgba(255, 255, 255, 1);
-    ; 
 }
 nav {
-    padding: 0px 10px 0px 10px;
-    background: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+    background:rgba(255, 255, 255, 0.7) ;
     display: flex;
     justify-content: space-between;
+    position:fixed;
+    height: 60px;
+    width: 100%;
   }
-
+#Lolita_Tochiieva_Logo{
+    height: 58px;
+    padding-top: 5px;
+    padding-left: 50px;
+  }
 nav a {
     color: black;
-    padding: 0px 20px 0px 0px;
+    text-decoration: none;
+
 }
 
 nav a:active {
     color: black;
 }
 
-header {
+#my_ux_projects{
+    transition: all 200ms ease;
+}
+#my_ux_projects:hover{
+    background: rgba(127, 19, 174, 0.5);
+    border-radius: 4px;
+    border: 1px solid black;
+    padding: 5px;
+    box-shadow: 5px 5px 6px 0px rgba(0, 0, 0, 0.25);
 
+}
+
+#my_ux_projects_highlight{
+    background: rgba(127, 19, 174, 0.5);
+    border-radius: 4px;
+    border: 1px solid black;
+    padding: 5px;
+    box-shadow: 5px 5px 6px 0px rgba(0, 0, 0, 0.25);
+}
+
+#my_side_projects{
+    transition: all 200ms ease;
+}
+
+#my_side_projects:hover{
+    background: rgba(132, 191, 110, 0.5);
+    border-radius: 4px;
+    border: 1px solid black;
+    padding: 5px;
+    box-shadow: 5px 5px 6px 0px rgba(0, 0, 0, 0.25);
+}
+
+#my_side_projects_highlight{
+    background: rgba(132, 191, 110, 0.5);
+    border-radius: 4px;
+    border: 1px solid black;
+    padding: 5px;
+    box-shadow: 5px 5px 6px 0px rgba(0, 0, 0, 0.25);
+}
+
+#about_me{
+    transition: all 200ms ease;
+}
+
+#about_me:hover{
+    background: rgba(249, 87, 0, 0.5);
+    border-radius: 4px;
+    border: 1px solid black;
+    padding: 5px;
+    box-shadow: 5px 5px 6px 0px rgba(0, 0, 0, 0.25);
+}
+
+#about_me_highlight{
+    background: rgba(249, 87, 0, 0.5);
+    border-radius: 4px;
+    border: 1px solid black;
+    padding: 5px;
+    box-shadow: 5px 5px 6px 0px rgba(0, 0, 0, 0.25);
+}
+
+.rightNav {
+    font-size: 125%;
+    padding-top: 15px;
+}
+
+.rightNav a {
+    margin-bottom: 36px;
+    margin-right: 66px;
+}
+
+
+#me {
+    margin-top: 40px;
+    max-width: 800px;
+}
+
+header {
     display: flex;
+    justify-content: space-between;
 }
 
 header h1 {
-    margin-left: 250px;
+    margin-left: 25px;
+    margin-top: 200px;
+    margin-right: 80px;
+}
+.orangeName {
+    color: rgba(249, 87, 0, 1);
+}
+
+.infoContainer {
+    position: relative;
+    text-align: center;
+    color: black;
+  }
+
+.centerText {
+    position: absolute;
+    top: 260px;
+    left: 80px;
+    max-width: 400px;
+    font-size: 18px;
+    transform: rotate(2.8deg);
+  }
+
+#infoPic {
+    width: 524px;
+    height: 493.52px;
+    margin-right: 150px;
+    margin-top: 100px;
+  
+}
+#pdfAnchor {
+    display: flex;
+    justify-content: center;
+}
+.PDFFile {
+    width: 160px;
+    height: 60px; 
+    background-color: rgba(249, 87, 0, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    border: 1.5px solid #000000;
+    border-radius: 5px;
+    transition: all 200ms ease;
+}
+
+
+.PDFFile:hover {
+    transform: scale(1.15);
+    cursor: pointer;
 }
 
 header img {
-    height: 600px;
-    margin-left: 250px;
+    margin-left: 20px;
 }
 
 #headerP {
     font-weight: 400;
     font-size: 80%;
 }
-.rightNav {
-    font-size: 125%;
+
+main a {
+    text-decoration: none;
 }
 
-#logoName {
-    font-size: 200%;
+.UXNav {
+position: relative;
+background-color: rgba(242, 242, 242, 1);
+width: 900px;
+height: 500px;
+border-radius: 20px;
+margin: 100px 306px;
+filter: drop-shadow(5px 5px 6px rgba(0, 0, 0, 0.5));
+ }
+
+
+ .ux_projects {
+    position: absolute;
+    color:rgba(127, 19, 174, 1);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 64px;
+    top: 36px;
+    right: 24px;
+ }
+
+
+#LolkasUX {
+    width: 814px;
+    height: 492px;
+    padding: 4px 43px;
+}
+.SideNav {
+    background-color: rgba(242, 242, 242, 1);
+    width: 900px;
+    height: 500px;
+    border-radius: 20px;
+    margin: 165px 306px;
+    filter: drop-shadow(5px 5px 6px rgba(0, 0, 0, 0.5));
+}
+.LolkasSideProjects {
+    position: absolute;
+    top: 400px;
+    right: 24px;
+    font-size: 55px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: rgb(91, 133, 77);
 }
 
-#me {
-    width: 400px;
+#LolkasSide {
+    width: 814px;
+    height: 492px;
+    padding: 4px 43px;
 }
 
-#education {
+.AboutNav {
+    background-color: rgba(242, 242, 242, 1);
+    width: 900px;
+    height: 500px;
+    border-radius: 20px;
+    margin: 165px 306px;
+    filter: drop-shadow(5px 5px 6px rgba(0, 0, 0, 0.5));
+}
+
+.LolkasAboutMe{
+    position: absolute;
+    top: 36px;
+    right: 24px;
+    font-size: 64px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: rgba(249, 87, 0);
+}
+
+#AboutLolka {
+    width: 814px;
+    height: 492px;
+    padding: 4px 43px;
+}
+
+#Designer_And_Vector{
+    margin-top: 90px;
+}
+
+#UX_Note {
+    width: 524px;
+    height: 493.52px;
+    margin-right: 150px;
+    margin-top: 50px;
+}
+
+.InfoContainerUX {
+    position: relative;
     text-align: center;
-    font-size: 200%;
+    color: black;
+  }
+
+.UXText {
+    position: absolute;
+    top: 300px;
+    left: 80px;
+    max-width: 400px;
+    font-size: 18px;
+    transform: rotate(2.8deg);
+  }
+.HandlaSmartChoise{
+    background-color: rgba(242, 242, 242, 1);
+    width: 900px;
+    height: 500px;
+    border-radius: 20px;
+    margin: 165px 306px;
+    filter: drop-shadow(5px 5px 6px rgba(0, 0, 0, 0.5));
 }
 
-#education h1 {
-    margin: 0 auto;
-    width:60%;
-    background: rgba(0, 0, 0, 0.4);
+#HandlaSmartLogo{
+    padding: 87px 89px;
+}
+.MyScheduleChoise{
+    background-color: rgba(242, 242, 242, 1);
+    width: 900px;
+    height: 500px;
+    border-radius: 20px;
+    margin: 165px 306px;
+    filter: drop-shadow(5px 5px 6px rgba(0, 0, 0, 0.5));
 }
 
-#education p {
-    margin: 0 auto;
-    max-width: 700px;
-   font-size: 18px; 
-} 
+#MyScheduleLogo {
+    padding: 190px 162px;
+}
 
-#experience {
+#Side_Vector{
+    margin-top: 90px;
+    width: 814px;
+    height: 492px;
+}
+
+#Side_Note {
+    width: 524px;
+    height: 493.52px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+.InfoContainerSide {
+    position: relative;
     text-align: center;
-    font-size: 200%;
-}
-#experience h1 {
-    margin: 0 auto;
-    width:60%;
-    background: rgba(0, 0, 0, 0.6);
-}
-#experience p {
-    margin: 0 auto;
-    max-width: 700px;
-   font-size: 18px; 
-} 
+    color: black;
+  }
 
-#skills {
-    text-align: center;
-    font-size: 200%;
-}
-#skills h1 {
-    margin: 0 auto;
-    width:60%;
-    background: rgba(0, 0, 0, 0.8);
-    color: rgba(252, 246, 245, 1);
-    }
-#skills p {
-    margin: 0 auto;
-    max-width: 700px;
-   font-size: 18px; 
-} 
+.SideText {
+    position: absolute;
+    top: 300px;
+    left: 80px;
+    max-width: 400px;
+    font-size: 18px;
+    transform: rotate(2.8deg);
+  }
 
-#projects {
+
+.social_media h1{
     text-align: center;
-    font-size: 200%;
 }
-#projects h1 {
-    margin: 0 auto;
-    width:60%;
-    background: rgba(0, 0, 0, 1);
-    color: rgba(252, 246, 245, 1)
-    }
-#projects p {
-    margin: 0 auto;
-    max-width: 700px;
-   font-size: 18px; 
-} 
+
+.icons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#sideProjects_coming {
+    text-align: center;
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 150px;
+}
 footer {
     margin-top: 250px;
     text-align: center;
+}
+
+
+/* MEDIA QUERIES */
+
+@media (min-width: 1080px) {
+    /* DESKTOP */
+    .phoneNav {
+        display: none;
+    }
+}
+
+@media (max-width: 1080px) {
+    /* TABLET */
+    .phoneNav {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    /* PHONE */
+    
+    .phoneNav {
+        display: flex;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .mobile_links {
+        display: none;
+        align-self: center;
+    }
+
+    .mobile_links a {
+        margin-right: 12px;
+    }
+
+    .desktopNav {
+        display: none;
+    }
+
+    #meny {
+        align-self: center;
+        margin-right: 8px;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    header{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-bottom: 30px;
+    }
+
+    header h1, header p, #me {
+        text-align: center;
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    #Lolita_Tochiieva_Logo {
+        padding: 0;
+        margin-left: 8px;
+    }
+
+    .Choises .UXNav, .SideNav, .AboutNav{
+        margin: 0 auto;
+        padding: 0;
+        width: 66%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .ux_projects, .LolkasAboutMe, .LolkasSideProjects {
+        font-size: 24px;
+    }
+
+    #LolkasSide, #LolkasUX, #AboutLolka {
+        margin: 0 auto;
+        padding: 0;
+        width: 66%;
+        height: auto;
+    }
+
+    .LolkasSideProjects {
+        top: 36px;
+    }
+
+    .social_media img {
+       width: 100%;
+    }
+
+    .UXNav, .SideNav, .AboutNav{
+        margin-top: 20px;
+    }
+
+    #ux_projects_page_header {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #Designer_And_Vector, #UX_Note {
+        margin: 0 auto;
+        width: 50%;
+        height: auto;
+    }
+
+    #Designer_And_Vector {
+        margin-top: 76px;
+    }
+
+    .UXText {
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 180px;
+    }
+
+    .InfoContainerUX  {
+        width: 100%;
+    }
+
+    .HandlaSmartChoise, #HandlaSmartLogo, .MyScheduleChoise, #MyScheduleLogo {
+        margin: 0 auto;
+        padding: 0;
+        width: 69%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 20px;
+    }
+
+    #Side_Vector{
+        margin: 0 auto;
+        width: 50%;
+        height: auto;
+        margin-top: 76px;
+    }
+
+    #Side_Note {
+        margin: 0 auto;
+        width: 50%;
+        height: auto;
+    }
+
+    .SideText {
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 180px;
+    }
+
+    .infoContainer, #infoPic, .centerText {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .centerText {
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
 }
