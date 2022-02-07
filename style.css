@@ -12,6 +12,8 @@ html, body {
 body {
     background-color: rgba(255, 255, 255, 1);
 }
+
+/* Navigation bar styling */
 nav {
     z-index: 9999;
     background:rgba(255, 255, 255, 0.7) ;
@@ -107,6 +109,7 @@ nav a:active {
 }
 
 
+/* Header Styling*/
 #me {
     width: 34%;
     margin-top: 40px;
@@ -148,25 +151,10 @@ header h1 {
     margin-top: 100px;
   
 }
-#pdfAnchor {
-    display: flex;
-    justify-content: center;
-}
-.PDFFile {
-    width: 160px;
-    height: 60px; 
-    background-color: rgba(249, 87, 0, 1);
-    color: rgba(255, 255, 255, 1);
-    font-size: 18px;
-    border: 1.5px solid #000000;
-    border-radius: 5px;
-    transition: all 200ms ease;
-}
 
-
-.PDFFile:hover {
-    transform: scale(1.15);
-    cursor: pointer;
+#UX_Note {
+    width: 75%;
+    margin-top: 50px;
 }
 
 header img {
@@ -177,16 +165,6 @@ header img {
     font-weight: 400;
     font-size: 80%;
 }
-
-main a {
-    text-decoration: none;
-}
-
-#UX_Note {
-    width: 75%;
-    margin-top: 50px;
-}
-
 .InfoContainerUX {
     position: relative;
     text-align: center;
@@ -201,7 +179,10 @@ main a {
     font-size: 18px;
     transform: rotate(2.8deg);
   }
-
+  #Side_Vector {
+    margin-top: 66px;
+    width: 50%;
+}
 #Side_Note {
     width: 500px;
     height: 493.52px;
@@ -224,6 +205,11 @@ main a {
     transform: rotate(2.8deg);
   }
 
+/* Main Section Styling */
+main a {
+    text-decoration: none;
+}
+
 
 .social_media h1{
     text-align: center;
@@ -239,10 +225,6 @@ main a {
     font-weight: bold;
     font-size: 32px;
     margin-bottom: 150px;
-}
-footer {
-    margin-top: 250px;
-    text-align: center;
 }
 
 .Choises{
@@ -271,11 +253,32 @@ footer {
     margin-bottom: 26px;
 }
 
-#Side_Vector {
-    margin-top: 66px;
-    width: 50%;
+/* PDF Resume Styling */
+#pdfAnchor {
+    display: flex;
+    justify-content: center;
+}
+.PDFFile {
+    width: 160px;
+    height: 60px; 
+    background-color: rgba(249, 87, 0, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    border: 1.5px solid #000000;
+    border-radius: 5px;
+    transition: all 200ms ease;
+} 
+
+.PDFFile:hover {
+    transform: scale(1.15);
+    cursor: pointer;
 }
 
+/* Footer styling*/
+footer {
+    margin-top: 250px;
+    text-align: center;
+}
 
 /* MEDIA QUERIES */
 
