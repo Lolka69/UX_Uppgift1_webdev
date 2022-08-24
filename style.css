@@ -274,6 +274,10 @@ main a {
     cursor: pointer;
 }
 
+.soon {
+    text-align: center;
+}
+
 /* Footer styling*/
 footer {
     margin-top: 250px;
