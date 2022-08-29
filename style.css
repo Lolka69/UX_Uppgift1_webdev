@@ -2,6 +2,7 @@
 
 * {
     font-family: 'Outfit', sans-serif;
+    box-sizing: border-box;
 }
 
 html, body {
@@ -49,6 +50,7 @@ nav a:active {
     box-shadow: 5px 5px 6px 0px rgba(0, 0, 0, 0.25);
 
 }
+
 
 #my_ux_projects_highlight{
     background: rgba(127, 19, 174, 0.5);
@@ -210,6 +212,10 @@ main a {
     text-decoration: none;
 }
 
+main, header {
+    margin: auto;
+}
+
 
 .social_media h1{
     text-align: center;
@@ -251,6 +257,127 @@ main a {
     margin: 0 auto;
     width: 100%;
     margin-bottom: 26px;
+}
+
+#my_schedule_header {
+    margin: 0 auto;
+    padding-top: 7%;
+    background-color: #F0E3F6;
+    padding-bottom: 3%;
+}
+
+#my_schedule_header img {
+    margin: 0 auto;
+}
+
+
+#handlasmartHeader {
+    padding-top: 5%;
+    background-color: #F0E3F6;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 15%;
+}
+
+#handlasmartHeader img {
+    width: 33%;
+    margin: auto;
+}
+
+#handlasmartHeader h2 {
+    margin-top: 15%;
+}
+#handlasmartHeader h2, ul {
+    margin-left: 5%;
+}
+
+#handlasmartHeader ul {
+    margin-bottom: 25%;
+}
+
+.first_project_div {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin: 0 auto;
+    width: 60%;
+    display: flex;
+}
+
+.first_project_div h2, p {
+    text-align: center;
+    margin-right: 5%;
+}
+
+.first_project_div p {
+    font-size: 110%;
+}
+
+.div4preview {
+    text-align: center;
+}
+
+.process {
+    padding-top: 5%;
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+    padding-bottom: 5%;
+    font-size: 110%;
+}
+
+.problems_solutions {
+    padding-left: 5%;
+    background-color: #F0E3F6;
+    padding-top: 5%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 110%;
+    padding-bottom: 5%;
+}
+
+.schedule_wrapper {
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    width: 60%;
+    font-size: 110%;
+}
+
+#what_I_have_done {
+    width: 100%;
+}
+
+.twoimage {
+    padding-left: 5%;
+    padding-top: 5%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.threeimage {
+    padding-left: 5%;
+    padding-top: 5%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.conclusions {
+    padding-top: 5%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 110%;
+    width: 80%;
+}
+
+.conclusions2 {
+    background-color: #F0E3F6;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 110%;
 }
 
 /* PDF Resume Styling */
@@ -297,6 +424,46 @@ footer {
     /* TABLET */
     .phoneNav {
         display: none;
+    }
+
+    .first_project_div {
+        text-align: center;
+        display: block;
+    }
+
+    .first_project_div img {
+        width: 80%;
+    }
+
+    .div4preview img{
+        text-align: center;
+        width: 90%;
+    }
+
+    .twoimage img{
+
+        width: 60%;
+    }
+
+    .threeimage {
+        text-align: center;
+    }
+
+    .threeimage img{
+ 
+        width: 95%;
+        padding-bottom: 5%;
+    }
+
+    .conclusions2 {
+        padding: 0;
+        padding-top: 3%;
+        margin: 0 auto;
+        padding-left: 3%;
+        text-align: center;
+        font-size: 95%;
+        padding-bottom: 3%;
+        
     }
 }
 
@@ -375,6 +542,7 @@ footer {
         width: 50%;
         height: auto;
     }
+    
 
     #Designer_And_Vector {
         margin-top: 76px;
@@ -444,5 +612,82 @@ footer {
     #me {
         margin-top: 55px;
     }
+
+    #handlasmartHeader img {
+        width: 80%;
+    }
+
+    #handlasmartHeader {
+        font-size: 90%;
+        text-align: center;
+        padding-top: 15%;
+        padding-left: 0;
+        padding-right: 0;
+        display: block;
+    }
+
+    #handlasmartHeader ul {
+        padding-bottom: 5%;
+    }
+
+    .first_project_div {
+        text-align: center;
+        display: block;
+    }
+
+    .first_project_div img {
+        width: 80%;
+    }
+
+    .div4preview img{
+        text-align: center;
+        width: 90%;
+    }
+
+    .problems_solutions img {
+        text-align: center;
+        width: 90%;
+    }
+
+    #my_schedule_header img {
+        margin: 0 auto;
+        padding-top: 10%;
+        width: 60%;
+    }
+
+    .schedule_wrapper {
+        display: block;
+    }
+
+    .schedule_wrapper ul {
+        list-style: none;
+        padding-right: 10%;
+    }
+
+    .twoimage img{
+
+        width: 60%;
+    }
+
+    .threeimage {
+        text-align: center;
+    }
+
+    .threeimage img{
+        padding-bottom: 5%;
+        width: 95%;
+    }
+
+    .conclusions2 {
+        padding: 0;
+        padding-top: 3%;
+        margin: 0 auto;
+        padding-left: 3%;
+        text-align: center;
+        font-size: 95%;
+        padding-bottom: 3%;
+        
+    }
+
 
 }
